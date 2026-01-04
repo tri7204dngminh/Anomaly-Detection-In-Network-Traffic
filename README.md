@@ -68,8 +68,9 @@ git clone https://github.com/KhushbooBoolchandani/Anomaly-Detection-In-Network-T
 cd Anomaly-Detection-In-Network-Traffic
 
 # Create virtual environment (optional but recommended)
-python -m venv venv
+python -m venv venv # py ver above 3.13 
 venv\Scripts\activate  # On Windows
+# optional  .\.venv\Scripts\Activate.ps1
 
 # Install dependencies
 pip install -r requirements.txt
